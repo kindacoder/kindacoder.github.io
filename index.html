@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- <script src="https://use.fontawesome.com/efa36de466.js"></script> -->
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="loader.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/vertical-timeline.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body id="about_me">
+
+    <div class='loader_container'>
+        <div class='loader'>
+            <div class='loader--dot'></div>
+            <div class='loader--dot'></div>
+            <div class='loader--dot'></div>
+            <div class='loader--dot'></div>
+            <div class='loader--dot'></div>
+            <div class='loader--dot'></div>
+            <div class='loader--text'></div>
+        </div>
+    </div>
+
+
+    <div class="content_body hide_this_section">
+
+        <ul id="slide-out" class="side-nav">
+            <li>
+                <div class="userView">
+                    <div class="background">
+                        <img src="images/flash2.jpg" id="background_image">
+                    </div>
+                </div>
+            </li>
+            <li><a href="#about_me"><i class="material-icons">dashboard</i>About</a></li>
+            <li><a href="#education"><i class="material-icons">school</i>Education</a></li>
+            <li><a href="#skills_area"><i class="material-icons">tune</i>Skills</a></li>
+            <li><a href="#experience"><i class="material-icons">business_center</i>Experience</a></li>
+            <li><a href="#!"><i class="material-icons">favorite</i>Interests</a></li>
+            <!-- <li><a href="#!"><i class="material-icons">supervisor_account</i>Testimonials</a></li> -->
+            <li><a href="#contact_area"><i class="material-icons">email</i>Contact</a></li>
+            <li><a href="mailto:webdev.ashutosh@gmail.com" class="waves-effect waves-light btn"><i class="fa fa-envelope" aria-hidden="true"></i>Mail me</a></li>
+        </ul>
+        <!--<button id="hamburger" data-activates="slide-out"-->
+        <!--class="pulse ham_icon  button-collapse material-icons waves-effect waves-effect">menu-->
+        <!--</button>-->
+
+        <a id="hamburger" data-activates="slide-out" class="btn btn-floating btn-large light-blue darken-4 button-collapse waves-effect waves-light"><i
+            class="material-icons">menu</i></a>
+
+        <div class="parallax-container">
+            <div class="parallax">
+                <img id="image_overlay" src="images/background_1.jpg" alt="">
+            </div>
+        </div>
+
+        <div id="image_container" class="center-block">
+            <div class="col s12 l12">
+                <img src="images/tuxpi.com.1512588033.jpg" alt="" class="z-depth-1  center-block circle responsive-img" id="profile_id">
+            </div>
+        </div>
+
+        <div class="container animated zoomIn">
+
+            <div id="intro" class="card ">
+                <div class="card-title" id="salutation">
+                    <h4 class="center-align">Hey, I'm Ashutosh Dwivedi!</h4>
+                </div>
+                <p class="center card-content">
+                    I am a B.tech III year <strong>Computer science student</strong> at <strong>
+                    Galgotia college of Engineering and Technology Greater Noida.</strong>I am <strong style="font-weight: 700">Learning web development</strong> with over 3 months of experience specializing in <strong style="font-weight: 700">Backend Technologies like Nodejs and PHP.</strong>Experienced
+                    with all stages of the development cycle for dynamic web projects. I'm a <strong>Startup Enthusiast</strong>. I have been working as CEO for my startup <strong>Collegefunde.com </strong>which used to deliver Night Foods, Daily need
+                    things and stationary items to students. <strong>It was a great learning Experience working with my own Startup.</strong>
+                </p>
+                <div class="card-action center">
+                    <a href="resume.pdf" id="button_custom" class="waves-effect waves-light btn" target="_blank"><i
+                        class="material-icons left">file_download</i>Download CV</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="education_timeline">
+            <div class="container">
+
+                <h3 class="center-align"><img id="education" src="images/icons/education.png" class="icons_header" alt=""> Education
+                </h3>
+
+                <section class="cd-container cd-timeline">
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="images/icons/kindergarten.png" alt="Picture">
+                        </div>
+                        <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content ">
+                            <h2>S V M Inter College Pratapgarh</h2>
+                            <p>
+                                I did my schooling from Saraswati Vidya Mandir Inter College Lalganj Pratapgarh, UP(India).
+                            </p>
+                            <!--<a class="waves-effect waves-light btn button_custom">Read More</a>-->
+                            <span class="cd-date">2010 - 2014</span>
+                        </div>
+                        <!-- cd-timeline-content -->
+                    </div>
+                    <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="images/icons/school_kgs.png" alt="Picture">
+                        </div>
+                        <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content ">
+                            <h2>JEE Mains Preperation</h2>
+                            <p>
+                                I prepared for Jee mains from ALLEN career Institute kota Rajasthan.
+                            </p>
+                            <!--<a class="waves-effect waves-light btn button_custom">Read More</a>-->
+                            <span class="cd-date">2014 - 2015</span>
+                        </div>
+                        <!-- cd-timeline-content -->
+                    </div>
+                    <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-movie">
+                            <img src="images/icons/college.png" alt="Movie">
+                        </div>
+                        <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content ">
+                            <h2>Galgotia College Greater Noida</h2>
+                            <p>
+                                I am currently pursuing B.tech in computer science from Galgotia college of Engineering & Technology Greater Noida.
+                            </p>
+                            <!--<a href="#0" class="cd-read-more">Read more</a>-->
+                            <span class="cd-date">2015 - Present</span>
+                        </div>
+                        <!-- cd-timeline-content -->
+                    </div>
+                    <!-- cd-timeline-block -->
+
+
+                </section>
+                <!-- cd-timeline -->
+            </div>
+
+        </div>
+
+        <div id="experience_area">
+            <div class="container">
+
+                <h3 class="center-align"><img id="experience" src="images/icons/suitcase.png" class="icons_header" alt=""> Experience
+                </h3>
+
+                <section class="cd-container cd-timeline">
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="images/icons/building.png" alt="Picture">
+                        </div>
+                        <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content ">
+                            <h2>CEO @ <strong>Collegefunde.com</strong> </h2>
+                            <p>
+                                Started my own startup <strong> Collegefunde.com</strong> as <strong>CEO
+                            </strong> and ran it successfully 6 months.Had a great learning in very less time.
+                            </p>
+                            <a style="margin-left:30px;" class="waves-effect waves-light btn">Read more</a>
+                            <span class="cd-date">July 2016 - Dec 2016</span>
+                        </div>
+                        <!-- cd-timeline-content -->
+                    </div>
+                    <!-- cd-timeline-block -->
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="images/icons/school_kgs.png" alt="Picture">
+                        </div>
+
+                        <div class="cd-timeline-content ">
+                            <h2>Internship Business development & Marketing @ FellaHomes</h2>
+                            <p>
+                                Worked with gurgaon based House renting startup FellaHomes in Greater Noida.
+                            </p>
+                            <a style="margin-left:30px;" class="waves-effect waves-light btn">Read more</a>
+                            <span class="cd-date">june 2016 - july 2016</span>
+                        </div>
+                    </div>
+
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture">
+                            <img src="images/icons/school_kgs.png" alt="Picture">
+                        </div>
+
+                        <div class="cd-timeline-content ">
+                            <h2>Internship : Webdevelopment @ Eduarena</h2>
+                            <p>
+                                Developed website for Delhi based educational Institution Eduarena with the help of Wordpress and simple HTML CSS.
+                            </p>
+                            <a style="margin-left:30px;" class="waves-effect waves-light btn">Read more</a>
+                            <span class="cd-date">Dec 2015 - Jan 2016</span>
+                        </div>
+                    </div>
+
+                </section>
+                <!-- cd-timeline -->
+            </div>
+
+        </div>
+
+
+        <div id="skills_area">
+
+            <div class="container">
+
+                <h3 id="skills_header" class="center-align"><img id="skills" src="images/icons/skills.png" class="icons_header" alt=""> Skills</h3>
+
+                <div id="skills_card" class="card z-depth-2 row ">
+                    <div class="card-content">
+                        <div class="col l4 s12">
+                            <h5 class="center">Professional</h5>
+                            <span class="left"> C++ Language</span> <span class="right">70%</span>
+                            <div class="progress">
+                                <div class="determinate" style="width: 70%"></div>
+                            </div>
+                            <br>
+                            <!-- <span class="left">MEAN Stack</span> <span class="right">85%</span>
+                            <div class="progress">
+                                <div class="determinate" style="width: 85%"></div>
+                            </div>
+                            <br> -->
+                            <span class="left">Javascript Front-end & Back-end</span> <span class="right">80%</span>
+                            <div class="progress">
+                                <div class="determinate" style="width: 80%"></div>
+                            </div>
+                            <br>
+                            <span class="left">Frontend (HTML5/CSS3/JS)</span> <span class="right">80%</span>
+                            <div class="progress">
+                                <div class="determinate" style="width: 80%"></div>
+                            </div>
+                            <br>
+                            <span class="left">NodeJS, ExpressJS</span> <span class="right">70%</span>
+                            <div class="progress">
+                                <div class="determinate" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="col l4 s12">
+                            <h5 class="center">Personal</h5>
+                            <span class="left">Communication</span> <span class="right">90%</span>
+                            <div class="progress">
+                                <div class="determinate" style="width: 90%"></div>
+                            </div>
+                            <br>
+                            <span class="left">Teamwork</span> <span class="right">95%</span>
+                            <div class="progress">
+                                <div class="determinate" style="width: 95%"></div>
+                            </div>
+                            <br>
+                            <span class="left">Creativity</span> <span class="right">87%</span>
+                            <div class="progress">
+                                <div class="determinate" style="width: 87%"></div>
+                            </div>
+                            <br>
+                            <span class="left">Dedication</span> <span class="right">90%</span>
+                            <div class="progress">
+                                <div class="determinate" style="width: 90%"></div>
+                            </div>
+                            <br>
+                        </div>
+                        <div class="col l4 s12">
+                            <h5 class="center">Software & Systems</h5>
+                            <span class="left">Linux, Windows</span> <span class="right">100%</span>
+                            <div class="progress">
+                                <div class="determinate" style="width: 100%"></div>
+                            </div>
+                            <br>
+                            <span class="left">Wordpress Development</span> <span class="right">100%</span>
+                            <div class="progress">
+                                <div class="determinate" style="width: 100%"></div>
+                            </div>
+                            <br>
+                            <span class="left">Adobe Photoshop, Camtasia Studio</span> <span class="right">50%</span>
+                            <div class="progress">
+                                <div class="determinate" style="width: 50%"></div>
+                            </div>
+                            <br>
+                            <span class="left">WebStorm,VSCode,Clion</span> <span class="right">95%</span>
+                            <div class="progress">
+                                <div class="determinate" style="width: 95%"></div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="contact_area">
+
+            <div class="container">
+                <h3 id="contacts_header" class="center-align"><img id="contacts" src="images/icons/phone-book.png" class="icons_header" alt=""> Contact Me</h3>
+
+                <div id="contacts_card" class="card light-blue darken-3 z-depth-2 row ">
+                    <form id="contact-form" action="https://formspree.io/webdev.ashutosh@gmail.com" method="POST" class="card-content">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input name="name" id="name" type="text" class="validate">
+                            <label for="name">Enter your name here</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">email</i>
+                            <input name="email" id="email" type="text" class="validate">
+                            <label for="email">Enter your email here</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">mode_edit</i>
+                            <textarea name="message" rows="10" id="message" class="materialize-textarea"></textarea>
+                            <label for="message">Enter your message here</label>
+                        </div>
+                        <div class="center">
+                            <button type="submit" value="Send" style="background-color: #01579B;" class="waves-effect waves-light btn center-align">
+                            <i class="material-icons left">send</i> Submit
+                        </button>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <footer class="page-footer light-blue darken-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Social Network</h5>
+                        <p class="grey-text text-lighten-4">Feel free to Connect with me on linkedin. I'm very much active on Quora follow me there. <i style="color:red;" class="fa fa-heart" aria-hidden="true"></i> Maybe we can work together on some idea or Project.<i class="fa fa-thumbs-up"
+                                aria-hidden="true"></i>. I'm not much active on facebook, Instagram and social media, simply I don't like fake things. Social media is fake, Let's be real.<i class="em em-wink"></i></p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Social Links & Imp. Links</h5>
+                        <ul>
+                            <li>
+                                <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/ashutosh1001/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i>   Linkedin</a>
+                            </li>
+                            <li><a class="grey-text text-lighten-3" href="https://github.com/kindacoder" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i> Github</a>
+                            </li>
+                            <li><a class="grey-text text-lighten-3" href="https://www.quora.com/profile/Ashutosh-Dwivedi-42" target="_blank"><i class="fa fa-quora" aria-hidden="true"></i> Quora</a>
+                            </li>
+                            <li><a class="grey-text text-lighten-3" href="https://twitter.com/ashutosh3307" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i>  twitter</a></li>
+                            <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/ashutosh.dwivedid" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i>  Facebook</a>
+                            </li>
+                            <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/shry_ashutosh/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i>  Instagram</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright light-blue darken-3">
+                <div class="container">
+                    © 2017-18, All Rights Reserved
+                    <a class="grey-text text-lighten-4 right" href="https://www.quora.com/profile/Ashutosh-Dwivedi-42">Ashutosh Dwivedi</a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <div class="fixed-action-btn click-to-toggle">
+        <a class="btn-floating btn-large red pulse" href="tel:09560386672">
+            <i class="fa fa-2x fa-phone" aria-hidden="true"></i>
+        </a>
+
+    </div>
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <script>
+        $(".button-collapse").sideNav({
+            closeOnClick: true
+        });
+
+        $(window).load(function() {
+            $(".content_body").removeClass("hide_this_section");
+            $('.loader_container').addClass("hide_this_section");
+            window.scrollTo(0, 1000);
+            window.scrollTo(0, -1000);
+        });
+
+        $(document).ready(function() {
+            $('.parallax').parallax();
+        });
+    </script>
+    <script src="javascript/vertical-timeline.js"></script>
+    <script>
+        $(document).on('click', 'a', function(event) {
+            var clickedHref = $(this).attr('href');
+            if (clickedHref === '#about_me' ||
+                clickedHref === '#education' ||
+                clickedHref === '#skills_area' ||
+                clickedHref === '#contact_area' ||
+                clickedHref === '#experience') {
+                event.preventDefault();
+                $('html, body').animate({
+                    scrollTop: $($.attr(this, 'href')).offset().top
+                }, 500);
+            } else if (clickedHref === '#!') {
+                event.preventDefault();
+            }
+        });
+        $('#textarea1').trigger('autoresize');
+    </script>
+    <script>
+        var $contactForm = $('#contact-form');
+        $contactForm.submit(function(e) {
+            e.preventDefault();
+
+            var name = document.getElementById('name'),
+                email = document.getElementById('email'),
+                message = document.getElementById('message');
+
+            if (name.value.trim() === '' || email.value.trim() === '' || message.value.trim() === '') {
+                swal({
+                    title: 'Error',
+                    text: 'Please fill all the fields',
+                    icon: 'error',
+                    timer: 3000
+                });
+                return false;
+            }
+
+            $.ajax({
+                url: '//formspree.io/webdev.ashutosh@gmail.com',
+                method: 'POST',
+                data: $(this).serialize(),
+                dataType: 'json',
+                beforeSend: function() {
+                    swal({
+                        title: "Sending the message!",
+                        button: true,
+                        icon: 'images/loading.png',
+                        imageSize: "80x80"
+                    });
+                },
+                success: function(data) {
+                    swal({
+                        title: "The message is sent. I'll get in contact with you ASAP!",
+                        timer: 4000,
+                        button: false,
+                        icon: "success"
+                    });
+
+                    document.getElementById('contact-form').reset();
+                },
+                error: function(err) {
+                    sweetAlert("Oops...", "Make sure you're connect to internet!", "error");
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
