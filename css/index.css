@@ -13,17 +13,23 @@ body {
     }
 }
 
+
 #profile_id {
     position: relative;
     top: -100px;
 }
+.projects-card{
+  width:300px;
+  background-color: #0277BD;
 
+}
 @media (max-width: 600px) {
     #profile_id {
         height: 150px;
         position: relative;
         top: -75px;
     }
+
 }
 
 @media (min-width: 600px) {
@@ -32,6 +38,7 @@ body {
         position: relative;
         top: -95px;
     }
+
 }
 
 #hamburger {
@@ -51,6 +58,7 @@ body {
     #intro {
         margin-top: -65px;
     }
+
 }
 
 #salutation {
@@ -176,6 +184,20 @@ main {
     height: 40px;
     position: relative;
     top: 3px;
+}
+
+.projects-card{
+  width:300px;
+  background-color: #0277BD;
+
+}
+@media only screen and (max-width: 600px) {
+
+  .projects-card{
+    width:330px;
+    background-color: #0277BD;
+
+  }
 }
 
 input:not([type]),

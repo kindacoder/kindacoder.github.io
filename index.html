@@ -3,7 +3,7 @@
 
 <head>
     <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!--Import materialize.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/vertical-timeline.css">
     <link rel="stylesheet" href="css/animate.css">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 </head>
 
 <body id="about_me">
@@ -48,7 +49,7 @@
             <li><a href="#education"><i class="material-icons">school</i>Education</a></li>
             <li><a href="#skills_area"><i class="material-icons">tune</i>Skills</a></li>
             <li><a href="#experience"><i class="material-icons">business_center</i>Experience</a></li>
-            <li><a href="#!"><i class="material-icons">favorite</i>Interests</a></li>
+            <li><a href="#projects-area"><i class="fa fa-1.5x fa-tasks"></i>Projects</a></li>
             <!-- <li><a href="#!"><i class="material-icons">supervisor_account</i>Testimonials</a></li> -->
             <li><a href="#contact_area"><i class="material-icons">email</i>Contact</a></li>
             <li><a href="mailto:webdev.ashutosh@gmail.com" class="waves-effect waves-light btn"><i class="fa fa-envelope" aria-hidden="true"></i>Mail me</a></li>
@@ -66,7 +67,7 @@
             </div>
         </div>
 
-        <div id="image_container" class="center-block">
+        <div id="image_container" class="center-block profile-pic">
             <div class="col s12 l12">
                 <img src="images/tuxpi.com.1512588033.jpg" alt="" class="z-depth-1  center-block circle responsive-img" id="profile_id">
             </div>
@@ -107,7 +108,7 @@
                         </div>
                         <!-- cd-timeline-img -->
 
-                        <div class="cd-timeline-content ">
+                        <div class="cd-timeline-content cd-timeline-content-left">
                             <h2>S V M Inter College Pratapgarh</h2>
                             <p>
                                 I did my schooling from Saraswati Vidya Mandir Inter College Lalganj Pratapgarh, UP(India).
@@ -125,7 +126,7 @@
                         </div>
                         <!-- cd-timeline-img -->
 
-                        <div class="cd-timeline-content ">
+                        <div class="cd-timeline-content cd-timeline-content-right">
                             <h2>JEE Mains Preperation</h2>
                             <p>
                                 I prepared for Jee mains from ALLEN career Institute kota Rajasthan.
@@ -143,7 +144,7 @@
                         </div>
                         <!-- cd-timeline-img -->
 
-                        <div class="cd-timeline-content ">
+                        <div class="cd-timeline-content cd-timeline-content-left">
                             <h2>Galgotia College Greater Noida</h2>
                             <p>
                                 I am currently pursuing B.tech in computer science from Galgotia college of Engineering & Technology Greater Noida.
@@ -176,13 +177,13 @@
                         </div>
                         <!-- cd-timeline-img -->
 
-                        <div class="cd-timeline-content ">
+                        <div class="cd-timeline-content cd-timeline-content-left">
                             <h2>CEO @ <strong>Collegefunde.com</strong> </h2>
                             <p>
                                 Started my own startup <strong> Collegefunde.com</strong> as <strong>CEO
                             </strong> and ran it successfully 6 months.Had a great learning in very less time.
                             </p>
-                            <a style="margin-left:30px;" class="waves-effect waves-light btn">Read more</a>
+                            <a style="margin-left:30px;" class="waves-effect waves-light btn read-more-btn">Read more</a>
                             <span class="cd-date">July 2016 - Dec 2016</span>
                         </div>
                         <!-- cd-timeline-content -->
@@ -194,12 +195,12 @@
                             <img src="images/icons/school_kgs.png" alt="Picture">
                         </div>
 
-                        <div class="cd-timeline-content ">
+                        <div class="cd-timeline-content cd-timeline-content-right ">
                             <h2>Internship Business development & Marketing @ FellaHomes</h2>
                             <p>
                                 Worked with gurgaon based House renting startup FellaHomes in Greater Noida.
                             </p>
-                            <a style="margin-left:30px;" class="waves-effect waves-light btn">Read more</a>
+                            <a style="margin-left:30px;" class="waves-effect waves-light btn read-more-btn">Read more</a>
                             <span class="cd-date">june 2016 - july 2016</span>
                         </div>
                     </div>
@@ -209,12 +210,12 @@
                             <img src="images/icons/school_kgs.png" alt="Picture">
                         </div>
 
-                        <div class="cd-timeline-content ">
+                        <div class="cd-timeline-content cd-timeline-content-left">
                             <h2>Internship : Webdevelopment @ Eduarena</h2>
                             <p>
                                 Developed website for Delhi based educational Institution Eduarena with the help of Wordpress and simple HTML CSS.
                             </p>
-                            <a style="margin-left:30px;" class="waves-effect waves-light btn">Read more</a>
+                            <a style="margin-left:30px;" class="waves-effect waves-light btn read-more-btn">Read more</a>
                             <span class="cd-date">Dec 2015 - Jan 2016</span>
                         </div>
                     </div>
@@ -232,7 +233,7 @@
 
                 <h3 id="skills_header" class="center-align"><img id="skills" src="images/icons/skills.png" class="icons_header" alt=""> Skills</h3>
 
-                <div id="skills_card" class="card z-depth-2 row ">
+                <div id="skills_card" class="card z-depth-2 row skill-card">
                     <div class="card-content">
                         <div class="col l4 s12">
                             <h5 class="center">Professional</h5>
@@ -314,12 +315,91 @@
 
         </div>
 
+
+
+
+
+
+        <div id="projects-area" style="margin-top:5px;">
+
+            <div class="container">
+
+                <h3 id="skills_header" class="center-align"><img id="skills" src="images/icons/suitcase.png" class="icons_header" alt=""> Projects</h3>
+
+                <div class="row z-depth-2">
+                  <div class="col s12 m12 l4">
+                    <div class="row">
+                        <div class="col s12 m6">
+                          <div class="card projects-card">
+                            <div class="card-content white-text">
+                              <span class="card-title"><b>Svnotes.in</b></span>
+                              <p>I am a very simple card. I am good at containing small bits of information.
+                              I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action">
+                              <a style="margin-left:45px;" class="waves-effect waves-light  teal lighten-2 btn read-more-btn">Project LInk</a>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col s12 m6 l4">
+                    <div class="row">
+    <div class="col s12 m6">
+      <div class="card projects-card">
+        <div class="card-content white-text">
+          <span class="card-title"><b>Url Shortener</b></span>
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+        <a style="margin-left:45px;" class="waves-effect waves-light  teal lighten-2 btn read-more-btn">Project LInk</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+                  </div>
+                  <div class="col s12 m6 l4">
+                    <div class="row">
+    <div class="col s12 m6">
+      <div class="card projects-card">
+        <div class="card-content white-text">
+          <span class="card-title"><b>Ecommerce WebApp</b></span>
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+        <a style="margin-left:45px;" class="waves-effect waves-light  teal lighten-2 btn read-more-btn">Project LInk</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+                  </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
         <div id="contact_area">
 
             <div class="container">
                 <h3 id="contacts_header" class="center-align"><img id="contacts" src="images/icons/phone-book.png" class="icons_header" alt=""> Contact Me</h3>
 
-                <div id="contacts_card" class="card light-blue darken-3 z-depth-2 row ">
+                <div id="contacts_card" class="card light-blue darken-3 z-depth-2 row contact-card">
                     <form id="contact-form" action="https://formspree.io/webdev.ashutosh@gmail.com" method="POST" class="card-content">
                         <div class="input-field col s12">
                             <i class="material-icons prefix">account_circle</i>
@@ -478,6 +558,57 @@
                 },
                 error: function(err) {
                     sweetAlert("Oops...", "Make sure you're connect to internet!", "error");
+                }
+            });
+        });
+    </script>
+    <script>
+        var config = {
+            reset: true
+        }
+        window.sr = new ScrollReveal(config);
+        sr.reveal('.cd-timeline-content-left', {
+            duration: 2000,
+            origin: 'left',
+            distance: '300px'
+        });
+        sr.reveal('.cd-timeline-content-right', {
+            duration: 2000,
+            origin: 'right',
+            distance: '300px'
+        });
+
+        sr.reveal('.read-more-btn', {
+            duration: 2000,
+            delay: 1000,
+            origin: 'bottom'
+        });
+        sr.reveal('.skill-card', {
+            duration: 2000,
+            origin: 'bottom'
+        });
+        sr.reveal('.contact-card', {
+            duration: 2000,
+            origin: 'bottom'
+        });
+        sr.reveal('.profile-pic', {
+            duration: 2000,
+            origin: 'bottom'
+        });
+    </script>
+    <script>
+        $(function() {
+            // Smooth Scrolling
+            $('a[href*="#"]:not([href="#"])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
                 }
             });
         });
