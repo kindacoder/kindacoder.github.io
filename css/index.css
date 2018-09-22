@@ -19,6 +19,7 @@ body {
     top: -100px;
 }
 #coder{
+    background-color:red;
    border: 5px solid red;
     top:10px;
     
