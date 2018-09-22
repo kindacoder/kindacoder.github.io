@@ -18,12 +18,7 @@ body {
     position: relative;
     top: -100px;
 }
-/* #coder{
-    background-color:red;
-   border: 5px solid red;
-    top:10px;
-    
-} */
+
 .projects-card{
   width:300px;
   background-color: #0277BD;
