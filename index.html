@@ -16,8 +16,15 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/vertical-timeline.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"
+/>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script
+  src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
+></script>
 </head>
 
 <body id="about_me">
@@ -452,7 +459,11 @@
                 <div class="container">
                 <h3 id="contacts_header" class="center-align"><i class="fa fa-github"></i>  MyGithub Activity</h3>
 
-                <img src="http://ghchart.rshah.org/kindacoder" class="center-align" alt="Kindacoders's Github chart" />
+<div class="calendar">
+    <!-- Loading stuff -->
+    Loading the data just for you.
+</div>                  
+               
 
                 </div>
             </div>
@@ -638,6 +649,9 @@
             });
         });
     </script>
+        <script>
+    GitHubCalendar(".calendar", "kindacoder");
+</script>
 </body>
 
 </html>
