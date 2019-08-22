@@ -1,1 +1,1 @@
-# kindacoder.github.io "ashutoshdwivedi.in"
+# kindacoder.github.io
